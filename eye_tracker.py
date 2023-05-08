@@ -155,7 +155,7 @@ landmark_model = get_landmark_model()
 left = [36, 37, 38, 39, 40, 41]
 right = [42, 43, 44, 45, 46, 47]
 
-cap = cv2.VideoCapture('/content/Proctoring-AI/eye_tracking/center_right_center.mp4')
+cap = cv2.VideoCapture(0)
 ret, img = cap.read()
 thresh = img.copy()
 
